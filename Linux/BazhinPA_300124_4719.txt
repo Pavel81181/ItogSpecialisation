@@ -1,0 +1,27 @@
+
+   64  mkdir Kontrol
+   65  ls
+   66  cd Kontrol
+   67  cat>pets.txt
+   68  ls
+   69  cat>pack_animals.txt
+   70  ls
+   71  cat pets.txt pack_animals.txt > 'new.txt'
+   72  ls
+   73  cat new.txt
+   74  mv new.txt Human_friends.txt
+   75  ls
+   76  mkdir New
+   77  sudo mv Human_friends.txt New/
+   78  cd New
+   79  ls
+   80  cat Human_friends.txt 
+   81  wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+   82  sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+   83  sudo apt-get update
+   84  sudo apt-get install mysql-server
+   85  wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+   86  sudo dpkg -i docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+   87  sudo dpkg -r docker-ce-cli
+   88  ls
+   89  history >> BazhinPA_300124_4719.txt
